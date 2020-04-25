@@ -5,7 +5,7 @@
 News-highlightws is a web app made with flask that highlights news from various sources and enables the user to read articles from them.
 ***
 # Author
-abdirahman mahat
+George k mbaria
 ***
 # Project Setup Instructions
 * clone the repo
