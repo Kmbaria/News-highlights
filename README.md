@@ -15,8 +15,6 @@ George k mbaria
     * ./start.sh
 * open up browser of choice and access the application on this localhost address http://127.0.0.1:5000
 ***
-# BDD
-
 ***
 # Technologies Used
 1. python
@@ -28,7 +26,7 @@ George k mbaria
 None for now.
 ***
 # Link to Live website
-
+  https://news006.herokuapp.com/
 ***
 # Copyright and License Information
   This project is licensed under the terms of the **MIT** license.
