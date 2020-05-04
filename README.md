@@ -26,8 +26,8 @@ George k mbaria
 None for now.
 ***
 # Link to Live website
-  https://news006.herokuapp.com/
+  https://cryptic-lowland.herokuapp.com/
 ***
 # Copyright and License Information
-  This project is licensed under the terms of the **MIT** license.
+  This project is licensed under the terms of the **MIT* 2020* jojik.GK
    
