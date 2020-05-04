@@ -5,19 +5,20 @@
     {{ super() }}
     <link rel="stylesheet" href="{{url_for('static',filename='index.css')}}">
 {% endblock %}
-    <h2>News Sources</h2>
+    <h2 style="text-align: center; color: rgb(34, 43, 163); font-family: serif;" > Choose Your Favourite News Source. </h2>
+    <hr>
     <ul>
     {%for newsSource in sources%}
     <div class="col-xs-10 col-sm-4 col-md-4 col-lg-4">
-        <div class="panel" style="border-bottom: 1px solid #457462;">
-          <div class="panel-heading" style="background-color:burlywood; color: black; font-size: 18px;">{{newsSource.name}}</div>
+        <div class="panel" style="border-bottom: 1px solid hsl(226, 79%, 30%);">
+          <div class="panel-heading" style="background-color:rgb(133, 8, 122); color: rgb(0, 0, 0); font-size: 20px;">{{newsSource.name}}</div>
           <div class="panel-body" style="font-size: 16px;">
             <p>{{newsSource.description | truncate(100)}}</p>
-            <a href="/articles/{{newsSource.id}}" class="btn" style="color: burlywood; background-color: gray;">Articles</a>
+            <a href="/articles/{{newsSource.id}}"  style="color: rgb(11, 18, 124); background-color: rgb(237, 246, 245);"> Read Articles</a>
           </div>
         </div>
 </div>
  <div></div>
     {%endfor%}
     </ul>
-{%endblock%}
+{%endblock%} 
